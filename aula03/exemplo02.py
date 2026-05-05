@@ -1,5 +1,10 @@
-idade = int(input('Digite a sua idade: ')) # 19
- #>, <, >=, <=, != (diferente) ou == (igual)
+idade = int(input('Digite a sua idade: '))
+# > sinal de maior
+# < sinal de menor
+# >= sinal de maior ou igual
+# <= sinal de menor ou igual
+# != sinal de diferente
+# == sinal de igual
 
 if idade >= 18:
     print('Você é adulto')
@@ -7,7 +12,7 @@ else:
     print('Você é menor de idade')
 
 
-# Classificação por Pontos se a pontuação for acima de 100 ganha 10 maior que 50 ganha 5 menor que 50 ganha 0
+# Classificação por Pontos. Se a pontuação for acima de 100, ganha 10 maior que 50 ganha 5 menor que 50 ganha 0
     
 pontos = int(input('Informe os pontos: '))
 
